@@ -1,24 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Store - Zona PC</title>
     <style>
-        body { background-color: #000; color: white; font-family: sans-serif; text-align: center; padding: 50px; }
-        h1 { font-size: 60px; color: #ffcc00; }
-        .boton {
-            display: block; width: 80%; margin: 20px auto; padding: 30px;
-            background: #222; color: white; font-size: 40px;
-            text-decoration: none; border-radius: 15px; border: 5px solid transparent;
+        /* Estilo bien cordobés: Negro y Amarillo como pediste */
+        body { background-color: #000; color: #ffcc00; font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        h1 { border-bottom: 2px solid #ffcc00; padding-bottom: 10px; }
+        .boton { 
+            display: block; width: 80%; margin: 20px auto; padding: 20px; 
+            background-color: #ffcc00; color: #000; text-decoration: none; 
+            font-weight: bold; border-radius: 10px; font-size: 1.5rem;
         }
-        /* Esto hace que el botón se ponga amarillo cuando lo seleccionás con el control */
-        .boton:focus { border-color: #ffcc00; background: #444; transform: scale(1.05); outline: none; }
+        .boton:active { background-color: #e6b800; }
+        .ayuda { color: #888; font-size: 0.9rem; margin-top: 50px; }
     </style>
 </head>
 <body>
-    <h1>ZONA PC STORE</h1>
-    <p>Elegí una app con el control y dale OK</p>
+
+    <h1>DIGITAL STORE - ZONA PC</h1>
+    <p>Elegí la app que querés instalar, Negro:</p>
+
+    <a href="TU_LINK_DIRECTO_AQUI.apk" download class="boton">
+        📥 DESCARGAR NETFLIX
+    </a>
+
+    <hr style="border-color: #333; margin: 40px 0;">
+
+    <p>¿No se instaló sola? Dale al botón de abajo:</p>
     
-    <a href="https://raw.githubusercontent.com/ABREGUR2011/Digital-Store/refs/heads/main/Digital%20Store%201.0.0.apk" class="boton">Tienda Digital</a>
-    <a href="https://tu-link-directo-youtube.apk" class="boton">YOUTUBE SIN AVISOS</a>
-    <a href="https://tu-link-directo-flow.apk" class="boton">FLOW TV</a>
+    <a href="intent:#Intent;action=android.intent.action.VIEW;type=application/vnd.android.package-archive;end" class="boton" style="background-color: #444; color: #fff;">
+        🛠️ FORZAR INSTALACIÓN
+    </a>
+
+    <div class="ayuda">
+        <p>Recordá darle permiso de "Apps Desconocidas" a esta aplicación en los Ajustes de la TV Box.</p>
+    </div>
+
 </body>
 </html>
