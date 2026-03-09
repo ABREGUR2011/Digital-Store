@@ -1,4 +1,4 @@
-name: Generar APK Zona PC Real
+name: Generar APK Zona PC Nativo
 on:
   workflow_dispatch:
 
@@ -9,18 +9,24 @@ jobs:
       - name: Clonar código
         uses: actions/checkout@v4
 
-      - name: Fabricar APK Real (Webview)
-        uses: duckduckant/html-to-apk@v2.0.1
+      - name: Configurar Java
+        uses: actions/setup-java@v4
         with:
-          # Aquí va tu link que ya funciona de diez
-          app-url: https://abregur2011.github.io/Digital-Store/
-          app-name: "Digital Store Zona PC"
-          package-name: "com.zonapc.digitalstore"
-          # Este es el permiso clave para que no te mande afuera
-          permissions: "android.permission.INTERNET, android.permission.REQUEST_INSTALL_PACKAGES"
+          java-version: '17'
+          distribution: 'temurin'
 
-      - name: Subir el APK de Verdad
+      # Usamos un generador de confianza que sí existe
+      - name: Fabricar Webview Real
+        uses: swisspost/web-to-app-action@v1
+        with:
+          url: https://abregur2011.github.io/Digital-Store/
+          name: "Digital Store"
+          package-id: "com.zonapc.digitalstore"
+          # Permisos para que la TV Box no se queje
+          android-permissions: "INTERNET, REQUEST_INSTALL_PACKAGES"
+
+      - name: Subir APK de Zona PC
         uses: actions/upload-artifact@v4
         with:
-          name: Digital-Store-Instalador
+          name: Digital-Store-ZPC
           path: "*.apk"
