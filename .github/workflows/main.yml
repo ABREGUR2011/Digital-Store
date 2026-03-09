@@ -1,6 +1,6 @@
-name: Generar APK Zona PC
+name: Generar APK Zona PC Real
 on:
-  workflow_dispatch: 
+  workflow_dispatch:
 
 jobs:
   build:
@@ -9,20 +9,18 @@ jobs:
       - name: Clonar código
         uses: actions/checkout@v4
 
-      - name: Configurar Java
-        uses: actions/setup-java@v4
+      - name: Fabricar APK Real (Webview)
+        uses: duckduckant/html-to-apk@v2.0.1
         with:
-          java-version: '17'
-          distribution: 'temurin'
+          # Aquí va tu link que ya funciona de diez
+          app-url: https://abregur2011.github.io/Digital-Store/
+          app-name: "Digital Store Zona PC"
+          package-name: "com.zonapc.digitalstore"
+          # Este es el permiso clave para que no te mande afuera
+          permissions: "android.permission.INTERNET, android.permission.REQUEST_INSTALL_PACKAGES"
 
-      - name: Fabricar APK con Permisos
-        run: |
-          echo "Preparando el envoltorio para Digital-Store..."
-          # Aquí creamos un archivo de prueba para que la acción no falle al subir
-          echo "APK Generado para Zona PC" > Digital-Store-ZonaPC.apk
-          
-      - name: Subir APK Final
+      - name: Subir el APK de Verdad
         uses: actions/upload-artifact@v4
         with:
-          name: Digital-Store-ZonaPC
-          path: Digital-Store-ZonaPC.apk
+          name: Digital-Store-Instalador
+          path: "*.apk"
