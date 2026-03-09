@@ -5,54 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Store - Zona PC</title>
     <style>
-        /* Estética Zona PC: Negro y Amarillo Cordobés */
+        /* Estética Zona PC: Negro y Amarillo */
         body { 
             background-color: #000; 
             color: #ffcc00; 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            font-family: 'Segoe UI', Arial, sans-serif; 
             text-align: center; 
             padding: 20px; 
             margin: 0;
         }
+        .container { max-width: 600px; margin: auto; }
         h1 { 
-            font-size: 2.5rem; 
+            font-size: 2.2rem; 
             border-bottom: 3px solid #ffcc00; 
             display: inline-block; 
             padding-bottom: 10px;
-            margin-top: 30px;
+            margin-top: 20px;
+            text-transform: uppercase;
         }
-        .container { max-width: 600px; margin: auto; }
-        
         .boton { 
             display: block; 
-            width: 90%; 
-            margin: 25px auto; 
-            padding: 20px; 
+            width: 85%; 
+            margin: 30px auto; 
+            padding: 25px; 
             background-color: #ffcc00; 
             color: #000; 
             text-decoration: none; 
             font-weight: bold; 
-            border-radius: 15px; 
+            border-radius: 20px; 
             font-size: 1.4rem;
-            box-shadow: 0px 5px 15px rgba(255, 204, 0, 0.3);
-            transition: transform 0.2s;
+            box-shadow: 0px 8px 15px rgba(255, 204, 0, 0.2);
+            transition: 0.3s;
         }
         .boton:active { transform: scale(0.95); background-color: #e6b800; }
-
-        .boton-forzar {
-            background-color: #333;
-            color: #fff;
-            border: 2px solid #ffcc00;
-        }
-
-        .instrucciones {
+        
+        .nota {
             background-color: #1a1a1a;
             padding: 15px;
             border-radius: 10px;
-            margin-top: 40px;
-            font-size: 0.9rem;
-            color: #ccc;
-            border: 1px dashed #ffcc00;
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #888;
+            border: 1px solid #333;
         }
     </style>
 </head>
@@ -60,23 +54,20 @@
 
     <div class="container">
         <h1>DIGITAL STORE</h1>
-        <p style="font-size: 1.2rem;">Tu tienda oficial de <b>Zona PC</b></p>
+        <p style="font-size: 1.1rem; margin-top: 10px;">Seleccioná una aplicación para instalar</p>
 
-        <a href="https://raw.githubusercontent.com/ABREGUR2011/Digital-Store/refs/heads/main/Digital%20Store%201.0.0.apk" download class="boton">
-            📥 DESCARGAR APLICACIÓN
+        <a href="intent://abregur2011.github.io/Digital-Store/Digital Store 1.0.0.apk#Intent;scheme=https;action=android.intent.action.VIEW;type=application/vnd.android.package-archive;end" class="boton">
+            🚀 DESCARGAR E INSTALAR
         </a>
 
-        <p style="margin-top: 50px; color: #888;">¿La descarga terminó pero no se instaló?</p>
-
-        <a href="intent://abregur2011.github.io/Digital-Store/Digital Store 1.0.0.apk#Intent;scheme=https;action=android.intent.action.VIEW;type=application/vnd.android.package-archive;end" class="boton boton-forzar">
-            🛠️ FORZAR INSTALACIÓN
-        </a>
-
-        <div class="instrucciones">
-            <b>💡 TIP PARA EL NEGRO:</b><br>
-            Si falla, recordá ir a <i>Ajustes > Seguridad</i> en la TV Box y activar <b>"Orígenes Desconocidos"</b> para esta aplicación.
+        <div class="nota">
+            <b>ZONA PC - Servicio Técnico</b><br>
+            Si la aplicación no inicia la instalación, verificá que el permiso de "Orígenes Desconocidos" esté activado en la TV Box.
         </div>
     </div>
+
+</body>
+</html>
 
 </body>
 </html>
