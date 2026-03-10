@@ -2,16 +2,16 @@
   {
     "id": 1,
     "nombre": "SmartTube",
-    "descripcion": "YouTube sin anuncios, especial para TV Box.",
+    "descripcion": "YouTube sin anuncios (Esta ya te anda de diez).",
     "urlIcono": "https://raw.githubusercontent.com/yuliskov/SmartTube/master/images/logo.png",
-    "urlDescarga": "https://github.com/yuliskov/SmartTubeNext/releases/download/latest/smarttube_stable.apk",
+    "urlDescarga": "https://github.com/yuliskov/SmartTube/releases/download/latest/smarttube_stable.apk",
     "version": "21.50",
     "tamano": "18MB"
   },
   {
     "id": 2,
     "nombre": "Stremio TV",
-    "descripcion": "Cine y series gratis. La que usan todos ahora.",
+    "descripcion": "Pelis y Series (Versión compatible 32 bits).",
     "urlIcono": "https://www.stremio.com/static/images/stremio-logo.png",
     "urlDescarga": "https://dl.strem.io/android/v1.6.11/stremio-1.6.11-armeabi-v7a.apk",
     "version": "1.6.11",
@@ -19,11 +19,11 @@
   },
   {
     "id": 3,
-    "nombre": "Kodi",
-    "descripcion": "El centro multimedia más potente para Android.",
+    "nombre": "Kodi Omega",
+    "descripcion": "Centro multimedia (Versión ARM 32 bits).",
     "urlIcono": "https://kodi.tv/static/8ca028303f71fcc613b1689ba431221a/f3174/kodi-logo.png",
-    "urlDescarga": "https://mirrors.kodi.tv/releases/android/arm/kodi-21.0-Omega-armeabi-v7a.apk",
-    "version": "21.0",
+    "urlDescarga": "https://mirrors.kodi.tv/releases/android/arm/kodi-21.1-Omega-armeabi-v7a.apk",
+    "version": "21.1",
     "tamano": "70MB"
   }
 ]
