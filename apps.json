@@ -4,8 +4,17 @@
     "nombre": "YouTube TV",
     "descripcion": "Videos y música",
     "urlIcono": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
-    "urlDescarga": "https://github.com/ua-parser/uap-core/raw/master/tests/test_resources/test.apk",
+    "urlDescarga": "https://link-a-tu-apk.com/youtube.apk",
     "version": "1.0",
     "tamano": "20MB"
+  },
+  {
+    "id": 2,
+    "nombre": "Netflix",
+    "descripcion": "Pelis y Series",
+    "urlIcono": "https://cdn-icons-png.flaticon.com/512/5977/5977590.png",
+    "urlDescarga": "https://link-a-tu-apk.com/netflix.apk",
+    "version": "5.1",
+    "tamano": "40MB"
   }
 ]
