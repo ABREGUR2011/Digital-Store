@@ -1,20 +1,29 @@
 [
   {
     "id": 1,
-    "nombre": "YouTube TV",
-    "descripcion": "Videos y música",
-    "urlIcono": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
-    "urlDescarga": "https://link-a-tu-apk.com/youtube.apk",
-    "version": "1.0",
-    "tamano": "20MB"
+    "nombre": "SmartTube",
+    "descripcion": "YouTube sin anuncios, especial para TV Box.",
+    "urlIcono": "https://raw.githubusercontent.com/yuliskov/SmartTube/master/images/logo.png",
+    "urlDescarga": "https://github.com/yuliskov/SmartTubeNext/releases/download/latest/smarttube_stable.apk",
+    "version": "21.50",
+    "tamano": "18MB"
   },
   {
     "id": 2,
-    "nombre": "Netflix",
-    "descripcion": "Pelis y Series",
-    "urlIcono": "https://cdn-icons-png.flaticon.com/512/5977/5977590.png",
-    "urlDescarga": "https://link-a-tu-apk.com/netflix.apk",
-    "version": "5.1",
-    "tamano": "40MB"
+    "nombre": "Stremio TV",
+    "descripcion": "Cine y series gratis. La que usan todos ahora.",
+    "urlIcono": "https://www.stremio.com/static/images/stremio-logo.png",
+    "urlDescarga": "https://dl.strem.io/android/v1.6.11/stremio-1.6.11-armeabi-v7a.apk",
+    "version": "1.6.11",
+    "tamano": "80MB"
+  },
+  {
+    "id": 3,
+    "nombre": "Kodi",
+    "descripcion": "El centro multimedia más potente para Android.",
+    "urlIcono": "https://kodi.tv/static/8ca028303f71fcc613b1689ba431221a/f3174/kodi-logo.png",
+    "urlDescarga": "https://mirrors.kodi.tv/releases/android/arm/kodi-21.0-Omega-armeabi-v7a.apk",
+    "version": "21.0",
+    "tamano": "70MB"
   }
 ]
