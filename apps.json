@@ -1,1 +1,11 @@
-
+[
+  {
+    "id": 1,
+    "nombre": "YouTube TV",
+    "descripcion": "Videos y música",
+    "urlIcono": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+    "urlDescarga": "https://github.com/ua-parser/uap-core/raw/master/tests/test_resources/test.apk",
+    "version": "1.0",
+    "tamano": "20MB"
+  }
+]
