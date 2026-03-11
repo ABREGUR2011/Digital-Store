@@ -1,29 +1,17 @@
-[
-  {
-    "id": 1,
-    "nombre": "SmartTube",
-    "descripcion": "YouTube sin anuncios (Esta ya te anda de diez).",
-    "urlIcono": "https://raw.githubusercontent.com/yuliskov/SmartTube/master/images/logo.png",
-    "urlDescarga": "https://github.com/yuliskov/SmartTube/releases/download/latest/smarttube_stable.apk",
-    "version": "21.50",
-    "tamano": "18MB"
+{
+  "config": {
+    "colorFondo": "#121212",
+    "urlImagenFondo": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop"
   },
-  {
-    "id": 2,
-    "nombre": "Stremio TV",
-    "descripcion": "Pelis y Series (Versión compatible 32 bits).",
-    "urlIcono": "https://www.stremio.com/static/images/stremio-logo.png",
-    "urlDescarga": "https://dl.strem.io/android/v1.6.11/stremio-1.6.11-armeabi-v7a.apk",
-    "version": "1.6.11",
-    "tamano": "80MB"
-  },
-  {
-    "id": 3,
-    "nombre": "Kodi Omega",
-    "descripcion": "Centro multimedia (Versión ARM 32 bits).",
-    "urlIcono": "https://kodi.tv/static/8ca028303f71fcc613b1689ba431221a/f3174/kodi-logo.png",
-    "urlDescarga": "https://mirrors.kodi.tv/releases/android/arm/kodi-21.1-Omega-armeabi-v7a.apk",
-    "version": "21.1",
-    "tamano": "70MB"
-  }
-]
+  "aplicaciones": [
+    {
+      "id": 1,
+      "nombre": "SmartTube",
+      "descripcion": "YouTube sin anuncios.",
+      "urlIcono": "https://raw.githubusercontent.com/yuliskov/SmartTube/master/images/logo.png",
+      "urlDescarga": "https://github.com/yuliskov/SmartTube/releases/download/latest/smarttube_stable.apk",
+      "version": "21.50",
+      "tamano": "18MB"
+    }
+  ]
+}
