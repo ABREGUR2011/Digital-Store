@@ -8,7 +8,7 @@
       "id": 1,
       "nombre": "SmartTube",
       "descripcion": "YouTube sin anuncios.",
-      "urlIcono": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+      "urlIcono": "http://img.viva.com.py/images/logo_viva_tv.png",
       "urlDescarga": "https://github.com/yuliskov/SmartTube/releases/download/latest/smarttube_stable.apk",
       "version": "21.50",
       "tamano": "18MB"
