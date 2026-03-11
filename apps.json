@@ -13,5 +13,32 @@
       "version": "21.50",
       "tamano": "4.77MB"
     }
+    {
+  "id": 2,
+  "nombre": "VLC Media Player",
+  "descripcion": "El mejor reproductor de video, se banca todos los formatos.",
+  "urlIcono": "https://images.videolan.org/images/VLC-Icon.png",
+  "urlDescarga": "https://get.videolan.org/vlc-android/3.5.4/VLC-Android-3.5.4-arm64-v8a.apk",
+  "version": "3.5.4",
+  "tamano": "35MB"
+},
+{
+  "id": 3,
+  "nombre": "Kodi",
+  "descripcion": "Centro multimedia para ver de todo en tu TV Box.",
+  "urlIcono": "https://kodi.tv/static/900989f66085a8376483569767664368/3626d/kodi-logo.png",
+  "urlDescarga": "https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-21.0-Omega-arm64-v8a.apk",
+  "version": "21.0",
+  "tamano": "70MB"
+},
+{
+  "id": 4,
+  "nombre": "Aptoide TV",
+  "descripcion": "Otra tienda de apps para que pruebes si descarga bien.",
+  "urlIcono": "https://cdn6.aptoide.com/imgs/f/c/c/fcc17079633e215403061453b34df941_icon.png",
+  "urlDescarga": "https://aptoide-tv.es.aptoide.com/apk",
+  "version": "5.1.2",
+  "tamano": "12MB"
+}
   ]
 }
