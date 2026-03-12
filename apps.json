@@ -6,9 +6,9 @@
   "aplicaciones": [
     {
       "id": 1,
-      "nombre": "SmartTube",
-      "descripcion": "YouTube sin anuncios.",
-      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/smarttube.png",
+      "nombre": "XTV Estable",
+      "descripcion": "Xtv version notmal.",
+      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/refs/heads/main/icons/XTV.png",
       "urlDescarga": "https://github.com/ABREGUR2011/tvapps/blob/main/apks/xtv-v1-stable.apk?raw=true",
       "version": "21.50",
       "tamano": "4.77MB"
