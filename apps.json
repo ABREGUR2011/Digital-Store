@@ -33,10 +33,10 @@
     },
     {
       "id": 4,
-      "nombre": "Kodi",
-      "descripcion": "Centro multimedia para ver de todo en tu TV Box.",
+      "nombre": "XML Movies Movil",
+      "descripcion": "Pelis y series",
       "urlIcono": "https://kodi.tv/static/900989f66085a8376483569767664368/3626d/kodi-logo.png",
-      "urlDescarga": "https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-21.0-Omega-arm64-v8a.apk",
+      "urlDescarga": "https://content.kirasphere.com/storage/movies-gms-phones.apk?v=0.0.4",
       "version": "21.0",
       "tamano": "70MB"
     },
