@@ -24,21 +24,21 @@
     },
     {
       "id": 3,
-      "nombre": "VLC Media Player",
-      "descripcion": "El mejor reproductor de video, se banca todos los formatos.",
-      "urlIcono": "https://images.videolan.org/images/VLC-Icon.png",
-      "urlDescarga": "https://get.videolan.org/vlc-android/3.5.4/VLC-Android-3.5.4-arm64-v8a.apk",
+      "nombre": "XML Movies TV",
+      "descripcion": "Pelis y Series",
+      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/mxl.png",
+      "urlDescarga": "https://content.kirasphere.com/storage/movies-nogms-tvbox.apk?v=0.0.4",
       "version": "3.5.4",
       "tamano": "35MB"
     },
     {
       "id": 4,
-      "nombre": "XML Movies Movil",
-      "descripcion": "Pelis y series",
-      "urlIcono": "https://kodi.tv/static/900989f66085a8376483569767664368/3626d/kodi-logo.png",
+      "nombre": "XML Movies Celular",
+      "descripcion": "Pelis y Series",
+      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/mxl.png",
       "urlDescarga": "https://content.kirasphere.com/storage/movies-gms-phones.apk?v=0.0.4",
       "version": "21.0",
-      "tamano": "70MB"
+      "tamano": "40.72MB"
     },
     {
       "id": 5,
