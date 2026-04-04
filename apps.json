@@ -39,15 +39,6 @@
       "urlDescarga": "https://content.kirasphere.com/storage/movies-gms-phones.apk?v=0.0.4",
       "version": "21.0",
       "tamano": "40.72MB"
-    },
-    {
-      "id": 5,
-      "nombre": "Aptoide TV",
-      "descripcion": "Tienda de aplicaciones alternativa para Android TV.",
-      "urlIcono": "https://cdn6.aptoide.com/imgs/f/c/c/fcc17079633e215403061453b34df941_icon.png",
-      "urlDescarga": "https://aptoide-tv.es.aptoide.com/apk",
-      "version": "5.1.2",
-      "tamano": "12MB"
     }
   ]
 }
