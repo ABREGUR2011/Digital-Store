@@ -39,6 +39,15 @@
       "urlDescarga": "https://content.kirasphere.com/storage/movies-gms-phones.apk?v=0.0.4",
       "version": "21.0",
       "tamano": "40.72MB"
+    },
+    {
+      "id": 5,
+      "nombre": "SmartTube",
+      "descripcion": "Youtube",
+      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/smarttube-icons-v0-p5j923xbk73f1.png",
+      "urlDescarga": "https://github.com/yuliskov/SmartTube/releases/download/latest/smarttube_stable.apk",
+      "version": "31.45",
+      "tamano": "33.19MB"
     }
   ]
 }
