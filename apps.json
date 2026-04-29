@@ -6,21 +6,21 @@
   "aplicaciones": [
     {
       "id": 1,
-      "nombre": "XTV Estable",
-      "descripcion": "Xtv version notmal.",
-      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/Jp.png",
+      "nombre": "XPlay",
+      "descripcion": "Actualización Xtv",
+      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/XPLAY.png",
       "urlDescarga": "https://github.com/ABREGUR2011/tvapps/raw/refs/heads/main/apks/XPLAY%201.0.apk",
-      "version": "21.50",
-      "tamano": "4.77MB"
+      "version": "1.0",
+      "tamano": "8.42MB"
     },
     {
       "id": 2,
-      "nombre": "XTV Tv Box Chinos",
-      "descripcion": "Xtv version tv box chinos.",
-      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/Jp.png",
-      "urlDescarga": "https://github.com/ABREGUR2011/tvapps/raw/refs/heads/main/apks/xtv-tvbox-chino.apk",
-      "version": "21.50",
-      "tamano": "4.77MB"
+      "nombre": "TV",
+      "descripcion": "TV Pelis y Series",
+      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/TV.jpg",
+      "urlDescarga": "https://github.com/ABREGUR2011/tvapps/raw/refs/heads/main/apks/tutv.apk",
+      "version": "1.1",
+      "tamano": "17.07MB"
     },
     {
       "id": 3,
