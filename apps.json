@@ -6,15 +6,24 @@
   "aplicaciones": [
     {
       "id": 1,
-      "nombre": "XPlay",
+      "nombre": "XPlay TV",
       "descripcion": "Actualización Xtv",
       "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/XPLAY.png",
-      "urlDescarga": "https://github.com/ABREGUR2011/tvapps/raw/refs/heads/main/apks/XPLAY%201.0.apk",
+      "urlDescarga": "https://github.com/ABREGUR2011/tvapps/raw/refs/heads/main/apks/xplay-release.apk",
       "version": "1.0",
-      "tamano": "8.42MB"
+      "tamano": "8.05MB"
     },
     {
       "id": 2,
+      "nombre": "XPlay TV Box",
+      "descripcion": "Actualización Xtv",
+      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/XPLAY.png",
+      "urlDescarga": "https://github.com/ABREGUR2011/tvapps/raw/refs/heads/main/apks/xtv-v2-stable-release.apk",
+      "version": "1.0",
+      "tamano": "6.73MB"
+    },
+    {
+      "id": 3,
       "nombre": "TV",
       "descripcion": "TV Pelis y Series",
       "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/TV.jpg",
@@ -23,7 +32,7 @@
       "tamano": "17.07MB"
     },
     {
-      "id": 3,
+      "id": 4,
       "nombre": "XML Movies TV",
       "descripcion": "Pelis y Series",
       "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/mxl.png",
@@ -32,7 +41,7 @@
       "tamano": "41.94MB"
     },
     {
-      "id": 4,
+      "id": 5,
       "nombre": "XML Movies Celular",
       "descripcion": "Pelis y Series",
       "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/mxl.png",
@@ -41,7 +50,7 @@
       "tamano": "40.72MB"
     },
     {
-      "id": 5,
+      "id": 6,
       "nombre": "SmartTube",
       "descripcion": "Youtube",
       "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/smarttube-icons-v0-p5j923xbk73f1.png",
