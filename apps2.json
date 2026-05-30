@@ -1,4 +1,9 @@
-[
+{
+  "config": {
+    "colorFondo": "#121212",
+    "urlImagenFondo": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/banner%20tienda.png"
+  },
+  "aplicaciones": [
   {
     "id": "com.tv.xtv",
     "name": "XPlay TV",
