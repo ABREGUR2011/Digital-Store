@@ -1,62 +1,26 @@
-{
-  "config": {
-    "colorFondo": "#121212",
-    "urlImagenFondo": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/banner%20tienda.png"
+[
+  {
+    "id": "com.tv.xtv",
+    "name": "XPlay TV",
+    "description": "XPlay Ultima version.",
+    "iconUrl": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/XPLAY.png",
+    "downloadUrl": "https://github.com/ABREGUR2011/tvapps/raw/refs/heads/main/apks/xplay-release.apk",
+    "version": "1.0.0",
   },
-  "aplicaciones": [
-    {
-      "id": 1,
-      "nombre": "XPlay TV",
-      "descripcion": "Actualización Xtv",
-      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/XPLAY.png",
-      "urlDescarga": "https://github.com/ABREGUR2011/tvapps/raw/refs/heads/main/apks/xplay-release.apk",
-      "version": "1.0",
-      "tamano": "8.05MB"
-    },
-    {
-      "id": 2,
-      "nombre": "XPlay TV Box",
-      "descripcion": "Actualización Xtv",
-      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/XPLAY.png",
-      "urlDescarga": "https://github.com/ABREGUR2011/tvapps/raw/refs/heads/main/apks/xtv-v2-stable-release.apk",
-      "version": "1.0",
-      "tamano": "6.73MB"
-    },
-    {
-      "id": 3,
-      "nombre": "TV",
-      "descripcion": "TV Pelis y Series",
-      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/TV.jpg",
-      "urlDescarga": "https://github.com/ABREGUR2011/tvapps/raw/refs/heads/main/apks/tutv.apk",
-      "version": "1.1",
-      "tamano": "17.07MB"
-    },
-    {
-      "id": 4,
-      "nombre": "XML Movies TV",
-      "descripcion": "Pelis y Series",
-      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/mxl.png",
-      "urlDescarga": "https://content.kirasphere.com/storage/movies-nogms-tvbox.apk?v=0.0.4",
-      "version": "3.5.4",
-      "tamano": "41.94MB"
-    },
-    {
-      "id": 5,
-      "nombre": "XML Movies Celular",
-      "descripcion": "Pelis y Series",
-      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/mxl.png",
-      "urlDescarga": "https://content.kirasphere.com/storage/movies-gms-phones.apk?v=0.0.4",
-      "version": "21.0",
-      "tamano": "40.72MB"
-    },
-    {
-      "id": 6,
-      "nombre": "SmartTube",
-      "descripcion": "Youtube",
-      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/smarttube-icons-v0-p5j923xbk73f1.png",
-      "urlDescarga": "https://github.com/yuliskov/SmartTube/releases/download/latest/smarttube_stable.apk",
-      "version": "31.45",
-      "tamano": "33.19MB"
-    }
-  ]
-}
+  {
+    "id": "com.xtv.xtvNuevo",
+    "name": "XPlay TV Box",
+    "description": "XPlay version para Tv Box.",
+    "iconUrl": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/XPLAY.png",
+    "downloadUrl": "https://github.com/ABREGUR2011/tvapps/raw/refs/heads/main/apks/xtv-v2-stable-release.apk",
+    "version": "1.0.12",
+  },
+  {
+    "id": "com.tv.tv",
+    "name": "TV Digital",
+    "description": "TV Pelis y Series.",
+    "iconUrl": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/TV.jpg",
+    "downloadUrl": "https://github.com/ABREGUR2011/tvapps/raw/refs/heads/main/apks/tutv.apk",
+    "version": "1.2.0",
+  }
+]
