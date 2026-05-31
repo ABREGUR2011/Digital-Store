@@ -33,6 +33,16 @@
       "version": "1.2.0",
       "paquete": "com.tv.tv",
       "tamano": "18.5 MB"
+    },
+    {
+      "id": 4,
+      "nombre": "XML Movies TV",
+      "descripcion": "Pelis y Series.",
+      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/mxl.png",
+      "urlDescarga": "https://content.kirasphere.com/storage/movies-nogms-tvbox.apk?v=0.0.4",
+      "version": "2.5.1-tvbox",
+      "paquete": "tv.xmlmovies.app",
+      "tamano": "18.5 MB"
     }
   ]
 }
