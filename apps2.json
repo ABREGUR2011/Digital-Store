@@ -60,8 +60,8 @@
       "descripcion": "Pelis y Series",
       "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/mxl.png",
       "urlDescarga": "https://content.kirasphere.com/storage/movies-gms-phones.apk?v=0.0.4",
-      "version": "21.0",
-      "paquete": "movil.tv",
+      "version": "2.5.1-phones",
+      "paquete": "tv.mxlmovies.app",
       "tamano": "40.72MB"
     }
   ]
