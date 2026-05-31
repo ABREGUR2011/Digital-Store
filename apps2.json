@@ -36,6 +36,16 @@
     },
     {
       "id": 4,
+      "nombre": "SmartTube",
+      "descripcion": "Youtube Premium",
+      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/smarttube-icons-v0-p5j923xbk73f1.png",
+      "urlDescarga": "https://github.com/yuliskov/SmartTube/releases/download/latest/smarttube_stable.apk",
+      "version": "31.45",
+      "paquete": "org.smarttube.stable",
+      "tamano": "33.19MB"
+    },
+    {
+      "id": 5,
       "nombre": "XML Movies TV",
       "descripcion": "Pelis y Series.",
       "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/mxl.png",
@@ -43,6 +53,16 @@
       "version": "2.5.1-tvbox",
       "paquete": "tv.xmlmovies.app",
       "tamano": "18.5 MB"
+    },
+    {
+      "id": 6,
+      "nombre": "XML Movies Celular",
+      "descripcion": "Pelis y Series",
+      "urlIcono": "https://raw.githubusercontent.com/ABREGUR2011/tvapps/main/icons/mxl.png",
+      "urlDescarga": "https://content.kirasphere.com/storage/movies-gms-phones.apk?v=0.0.4",
+      "version": "21.0",
+      "paquete": "movil.tv",
+      "tamano": "40.72MB"
     }
   ]
 }
